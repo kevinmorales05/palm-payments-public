@@ -1,0 +1,35 @@
+# Entornos virtuales
+venv/
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.sqlite3
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs y bases de datos locales
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
+*.pid
+*.seed
+
+# MacOS
+.DS_Store
+
+# Pytest
+.pytest_cache/
