@@ -6,6 +6,7 @@ class Settings(BaseSettings):
     POSTGRES_DB: str
     POSTGRES_HOST: str
     POSTGRES_PORT: int = 5432
+    HMAC_SECRET_KEY: str 
 
     @property
     def DATABASE_URL(self) -> str:
